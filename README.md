@@ -8,4 +8,4 @@
 <li>View website: https://ovcharovcoder.github.io/taxus-frontend</li>
 </ul>
 
-<img src="screenshot.png" alt="screensot">
+<img src="Screenshot.png" alt="screensot">
