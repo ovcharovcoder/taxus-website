@@ -7,6 +7,6 @@
   <li>Development date: 17.01.2025</li>
 <li>View website: https://ovcharovcoder.github.io/taxus-frontend</li>
 </ul>
-Note: The site is not yet adapted for mobile devices
+<p>Note: The site is not yet adapted for mobile devices</p>
 
 <img src="Screenshot.png" alt="screensot">
