@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Taxus Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Prata&family=Raleway:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header__inner">
+						<div class="header__logo">
+							<a class="header__logo-link" href="/">
+								<img
+									class="header__logo-img"
+									src="images/logo.svg"
+									alt="Logo"
+								/>
+							</a>
+						</div>
+						<div class="header__nav-menu">
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item header__dropdown">
+                <a class="header__nav-link dropdown mr-20" href="#">Services</a>
+                <ul class="header__dropdown-menu">
+                    <li><a href="company-reg.html">Company Registration</a></li>
+                    <li><a href="payment-sol.html">Payment Solution</a></li>
+                    <li><a href="gaming-lic.html">Gaming Licenses</a></li>
+					<li><a href="contract-draft.html">Contract Drafting</a></li>
+					<li><a href="tm-reg.html">TM Registration</a></li>
+                </ul>
+            </li>
+            <li class="header__nav-item">
+                <a class="header__nav-link" href="banking.html">Banking</a>
+            </li>
+            <li class="header__nav-item header__dropdown">
+                <a class="header__nav-link dropdown mr-20" href="about.html">About Us</a>
+                <ul class="header__dropdown-menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                </ul>
+            </li>
+            <li class="header__nav-item">
+                <a class="header__nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="header__nav-item">
+                <a class="header__nav-link ml" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__user-nav">
+        <div class="header__search">
+            <a class="header__search-link" href="#">
+                <img class="header__search-img" src="images/icons/search.svg" alt="Search"/>
+            </a>
+        </div>
+        <div class="header__login">
+            <a class="header__login-btn" href="#"> Log in </a>
+        </div>
+        <div class="header__lang">
+            <a class="header__nav-link dropdown" href="#">EN</a>
+			  <ul class="header__dropdown-menu">
+              <li><a href="#">UA</a></li>
+              <li><a href="#">DE</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</header>
+<main class="main">
+	<!-- Promo -->
+	<section class="blog-promo tm-reg-promo">
+		<div class="gam-bus-promo__decore">
+			<!-- Elipse -->
+			<img
+				class="gam-bus-promo__decore-img gam-bus-promo__decore-img-1"
+				src="images/ellipse-decore.webp"
+				alt="image"
+			/>
+			<!-- Rhombus -->
+			<img
+				class="gam-bus-promo__decore-img gam-bus-promo__decore-img-2"
+				src="images/rhombus-decore.webp"
+				alt="image"
+			/>
+		</div>
+		<div class="container">
+			<div class="blog-promo__inner tm-reg-promo__inner">
+				<div class="tm-reg-promo__item">
+					<h1 class="blog-promo__subtitle subtitle">Blog</h1>
+					<h2 class="blog-promo__title title">Articles and News</h2>
+				</div>
+				<div class="tm-reg-promo__item animate-slide-in-right">
+					<p class="blog-promo__text">
+						Check out our carefully curated content for the latest news in the
+						world of finance and law. Get important insights for your next step
+						in business.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Promo end -->
+
+	<!-- Blog categories -->
+	<section class="blog-categories">
+		<div class="container">
+			<div class="container">
+        <!-- Filter buttons -->
+				 <div class="blog-categories__top">
+        <div class="blog-categories__filters">
+					<b class="blog-categories__filters-title">Choose topics:</b>
+					<div class="blog-categories__filter-inner">
+            <button class="filter-btn active" data-category="all">All topics</button>
+            <button class="filter-btn" data-category="gambling">Gambling</button>
+            <button class="filter-btn" data-category="licenses">Licenses</button>
+            <button class="filter-btn" data-category="betting">Betting</button>
+						</div>
+        </div>
+				<form class="search-form" action="/search_results.php" method="GET">
+					<div class="search-container">
+							<input type="text" id="search" name="query" class="search-input" placeholder="What are you search for?" required>
+							<div class="search-icon"></div>
+					</div>
+					<button class="search-form__btn" type="submit">Search</button>
+			</form>
+</div>
+			<div class="blog-categories__inner">
+				<!-- Article 1 -->
+				<div class="articles__item" data-category="licenses">
+					<a class="articles__item-link" href="#">
+						<div class="articles__item-img-container">
+							<img
+								class="articles__item-img"
+								src="images/article-1.webp"
+								alt="image"
+							/>
+						</div>
+						<div class="articles__item-content">
+							<div class="articles__item-top">
+								<span class="articles__item-date">02 Apr 2024</span>
+								<span class="articles__item-author">L. Voitsekhovska</span>
+							</div>
+							<h3 class="articles__item-title">
+								Strengthening Financial Monitoring in Europe A Challenge
+							</h3>
+						</div>
+					</a>
+				</div>
+				<!-- Article 2 -->
+				<div class="articles__item" data-category="licenses">
+					<a class="articles__item-link" href="#">
+						<div class="articles__item-img-container">
+							<img
+								class="articles__item-img"
+								src="images/article-2.webp"
+								alt="image"
+							/>
+						</div>
+						<div class="articles__item-content">
+							<div class="articles__item-top">
+								<span class="articles__item-date">04 Apr 2024</span>
+								<span class="articles__item-author">L. Voitsekhovska</span>
+							</div>
+							<h3 class="articles__item-title">
+								Weekly highlights in Sports and Gambling world
+							</h3>
+						</div>
+					</a>
+				</div>
+				<!-- Article 3 -->
+				<div class="articles__item" data-category="gambling">
+					<a class="articles__item-link" href="#">
+						<div class="articles__item-img-container">
+							<img
+								class="articles__item-img"
+								src="images/article-3.webp"
+								alt="image"
+							/>
+						</div>
+						<div class="articles__item-content">
+							<div class="articles__item-top">
+								<span class="articles__item-date">08 Apr 2024</span>
+								<span class="articles__item-author">L. Voitsekhovska</span>
+							</div>
+							<h3 class="articles__item-title">
+								Blockchain in iGaming: Details and Legal Nuances
+							</h3>
+						</div>
+					</a>
+				</div>
+				<!-- Article 4 -->
+				<div class="articles__item" data-category="betting">
+					<a class="articles__item-link" href="#">
+						<div class="articles__item-img-container">
+							<img
+								class="articles__item-img"
+								src="images/article-4.webp"
+								alt="image"
+							/>
+						</div>
+						<div class="articles__item-content">
+							<div class="articles__item-top">
+								<span class="articles__item-date">12 Apr 2024</span>
+								<span class="articles__item-author">V. Hladush</span>
+							</div>
+							<h3 class="articles__item-title">
+								New Research from Taxus Law&Finance: Online Casino Payments
+							</h3>
+						</div>
+					</a>
+				</div>
+				<!-- Article 5 -->
+				<div class="articles__item" data-category="betting">
+					<a class="articles__item-link" href="#">
+						<div class="articles__item-img-container">
+							<img
+								class="articles__item-img"
+								src="images/article-5.webp"
+								alt="image"
+							/>
+						</div>
+						<div class="articles__item-content">
+							<div class="articles__item-top">
+								<span class="articles__item-date">14 Apr 2024</span>
+								<span class="articles__item-author">V. Hladush</span>
+							</div>
+							<h3 class="articles__item-title">
+								Part 1. The Path to Gaming Deals: When the Duration of the
+								Process
+							</h3>
+						</div>
+					</a>
+				</div>
+				<!-- Article 6 -->
+				<div class="articles__item" data-category="betting">
+					<a class="articles__item-link" href="#">
+						<div class="articles__item-img-container">
+							<img
+								class="articles__item-img"
+								src="images/article-6.webp"
+								alt="image"
+							/>
+						</div>
+						<div class="articles__item-content">
+							<div class="articles__item-top">
+								<span class="articles__item-date">20 Apr 2024</span>
+								<span class="articles__item-author">V. Hladush</span>
+							</div>
+							<h3 class="articles__item-title">
+								Weekly highlights in Sports and Gambling world
+							</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- Bread crumbs -->
+			<div class="blog-categories__bread-crumbs reviews__bread-crumbs">
+				<ul class="bread-crumbs__list">
+					<li
+						class="blog-categories__item articles__list-item bread-crumbs__list-item"
+					>
+						<a class="articles__list-link bread-crumbs__list-link" href="/"
+							>Main</a
+						>
+					</li>
+					<li
+						class="blog-categories__item articles__list-item bread-crumbs__list-item"
+					>
+						/
+					</li>
+					<li
+						class="blog-categories__item articles__list-item bread-crumbs__list-item"
+					>
+						<a
+							class="articles__list-link bread-crumbs__list-link bread-crumbs--active"
+							href="#"
+							>Blog</a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</main>
+  <footer class="footer">
+    <div class="container">
+    <div class="footer__top">
+      <div class="footer__top-inner">
+        <div class="footer__top-item">
+          <div class="footer__top-item-logo">
+            <a class="footer__logo-link" href="/">
+              <img
+                class="footer__logo-img"
+                src="images/logo.svg"
+                alt="Logo"
+              />
+            </a>
+          </div>
+          <div class="footer__top-item-contact">
+            <span>contact@taxus.tech</span>
+            <address>71-75 Shelton Street, Covent Garden, 
+              London, UK, WC2H 9JQ</address>
+          <ul class="footer__top-item-social-list">
+            <li class="footer__top-item-social-item">
+              <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <img class="footer__social-img" src="images/icons/instagram.svg" alt="Instagram">
+              </a>
+            </li>
+            <li class="footer__top-item-social-item">
+              <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="Linkedin" target="_blank" rel="noopener noreferrer">
+                <img class="footer__social-img" src="images/icons/in.svg" alt="Linkedin">
+              </a>
+            </li>
+            <li class="footer__top-item-social-item">
+              <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <img class="footer__social-img" src="images/icons/fb.svg" alt="Facebook">
+              </a>
+            </li>
+            <li class="footer__top-item-social-item">
+              <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                <img class="footer__social-img" src="images/icons/youtube.svg" alt="YouTube">
+              </a>
+            </li>
+          </ul>
+            </div>
+        </div>
+        <div class="footer__top-item">
+          <nav class="footer__menu">
+            <!-- Services -->
+         <ul class="footer__menu-list">
+          <li class="footer__menu-item footer__menu-item-title">Services</li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="company-reg.html">Company Registration</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="payment-sol.html">Payment Solution</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="gaming-lic.html">Gaming Licenses</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="contract-draft.html">Contract Drafting</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="tm-reg.html">TM Registration</a>
+          </li>
+         </ul>
+         <!-- Company -->
+         <ul class="footer__menu-list">
+          <li class="footer__menu-item footer__menu-item-title">Company</li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="about.html">About Us</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Taxus AP</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Cases</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="team.html">Our Team</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="blog.html">Blog</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">FAQ</a>
+          </li>
+         </ul>
+         <!-- Legal -->
+         <ul class="footer__menu-list">
+          <li class="footer__menu-item footer__menu-item-title">Legal</li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Cookie Policy</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Terms of Use</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Privacy Policy</a>
+          </li>
+         </ul>
+        </nav>
+        </div>
+      </div>
+    </div>
+    </div>	
+     <div class="footer__copyright">
+      <div class="container">
+        <p class="footer__copyright-text">© Taxus DFTS Ltd 2024. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  </div> 
+  <!-- END/ wrapper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/main.min.js"></script>
+  </body>
+</html>
