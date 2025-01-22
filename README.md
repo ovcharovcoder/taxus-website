@@ -4,7 +4,7 @@
 <ul>
   <li>Site name: Taxus</li>
   <li>Web developer: Andriy Ovcharov</li>
-  <li>Development date: 17.01.2025</li>
+  <li>Development date: 22.01.2025</li>
 <li>View website: https://ovcharovcoder.github.io/taxus-frontend</li>
 </ul>
 
