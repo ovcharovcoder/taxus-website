@@ -23,7 +23,7 @@ Development date: 10.01.2025 -->
 				<div class="container">
 					<div class="header__inner">
 						<div class="header__logo">
-							<a class="header__logo-link" href="https://ovcharovcoder.github.io/taxus-frontend">
+							<a class="header__logo-link" href="/">
 								<img
 									class="header__logo-img"
 									src="images/logo.svg"
@@ -65,7 +65,7 @@ Development date: 10.01.2025 -->
     <div class="header__user-nav">
         <div class="header__search">
             <a class="header__search-link" href="#">
-                <img class="header__search-img" src="icons/search.svg" alt="Search"/>
+                <img class="header__search-img" src="images/icons/search.svg" alt="Search"/>
             </a>
         </div>
         <div class="header__login">
@@ -73,11 +73,14 @@ Development date: 10.01.2025 -->
         </div>
         <div class="header__lang">
             <a class="header__nav-link dropdown" href="#">EN</a>
-			  <ul class="header__dropdown-menu">
+			  <ul class="header__dropdown-menu header__dropdown-lang-menu">
               <li><a href="#">UA</a></li>
               <li><a href="#">DE</a></li>
             </ul>
         </div>
+		<div class="header__burger">
+                        <img src="images/icons/icon-menu.svg" alt="Menu" />
+                    </div>
     </div>
 </div>
 </div>
@@ -112,7 +115,7 @@ Development date: 10.01.2025 -->
 					<div class="promo-home__stats-inner">
 						<!-- Button -->
 						<div class="promo-home__btn">
-							<a class="promo-home__btn-link btn btn-pulse" href="#"
+							<a class="promo-home__btn-link btn btn-pulse" href="contact.html"
 								>Contact us</a
 							>
 						</div>
@@ -179,7 +182,7 @@ Development date: 10.01.2025 -->
 				<div class="expertise__item">
 					<img
 						class="expertise__item-img"
-						src="icons/case.svg"
+						src="images/icons/case.svg"
 						alt="icon"
 					/>
 					<h3 class="expertise__item-title">Corporate Law</h3>
@@ -195,7 +198,7 @@ Development date: 10.01.2025 -->
 				<div class="expertise__item">
 					<img
 						class="expertise__item-img"
-						src="icons/idea.svg"
+						src="images/icons/idea.svg"
 						alt="icon"
 					/>
 					<h3 class="expertise__item-title">Intellectual Property</h3>
@@ -210,7 +213,7 @@ Development date: 10.01.2025 -->
 				<div class="expertise__item">
 					<img
 						class="expertise__item-img"
-						src="icons/finance.svg"
+						src="images/icons/finance.svg"
 						alt="icon"
 					/>
 					<h3 class="expertise__item-title">Banking and Finance</h3>
@@ -225,7 +228,7 @@ Development date: 10.01.2025 -->
 				<div class="expertise__item">
 					<img
 						class="expertise__item-img"
-						src="icons/global.svg"
+						src="images/icons/global.svg"
 						alt="icon"
 					/>
 					<h3 class="expertise__item-title">International Business</h3>
@@ -250,7 +253,7 @@ Development date: 10.01.2025 -->
 						<h2 class="who-we-serve__subtitle subtitle">Who we serve</h2>
 						<h3 class="who-we-serve__title title">
 							The areas of our expertise are as diverse as the IT business
-							verticals.
+							verticals
 						</h3>
 					</header>
 					<img
@@ -300,7 +303,9 @@ Development date: 10.01.2025 -->
 						</li>
 					</ul>
 					<!-- Button -->
-					<a class="who-we-serve__btn btn btn-pulse" href="#">Contact us</a>
+					<a class="who-we-serve__btn btn btn-pulse" href="contact.html"
+						>Contact us</a
+					>
 				</div>
 			</div>
 		</div>
@@ -428,7 +433,9 @@ Development date: 10.01.2025 -->
 				</div>
 				<!-- Button -->
 				<div class="services__cta-item-btn">
-					<a class="services__cta-btn btn btn-pulse" href="#">Contact us</a>
+					<a class="services__cta-btn btn btn-pulse" href="contact.html"
+						>Contact us</a
+					>
 				</div>
 			</div>
 		</div>
@@ -444,12 +451,14 @@ Development date: 10.01.2025 -->
 		<div class="container">
 			<div class="banking__inner">
 				<!-- Image -->
-				<img
-					class="banking__img animate-slide-in-left"
-					src="images/banking-img.webp"
-					loading="lazy"
-					alt="image"
-				/>
+				<div class="banking__item">
+					<img
+						class="banking__img animate-slide-in-left"
+						src="images/banking-img.webp"
+						loading="lazy"
+						alt="image"
+					/>
+				</div>
 				<div class="banking__item">
 					<header class="banking__header">
 						<h2 class="banking__subtitle subtitle">Taxus Banking</h2>
@@ -511,12 +520,14 @@ Development date: 10.01.2025 -->
 					</header>
 				</div>
 				<!-- Image -->
-				<img
-					class="platform__img animate-slide-in-right"
-					src="images/platform-img.webp"
-					loading="lazy"
-					alt="img"
-				/>
+				<div class="platform__item">
+					<img
+						class="platform__img animate-slide-in-right"
+						src="images/platform-img.webp"
+						loading="lazy"
+						alt="img"
+					/>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -623,7 +634,7 @@ Development date: 10.01.2025 -->
 				<div class="benefits__item">
 					<img
 						class="benefits__item-img"
-						src="icons/team.svg"
+						src="images/icons/team.svg"
 						alt="icon"
 					/>
 					<h4 class="benefits__item-title">Experienced professionals</h4>
@@ -637,7 +648,7 @@ Development date: 10.01.2025 -->
 				<div class="benefits__item">
 					<img
 						class="benefits__item-img"
-						src="icons/strategy.svg"
+						src="images/icons/strategy.svg"
 						alt="icon"
 					/>
 					<h4 class="benefits__item-title">Customized solutions</h4>
@@ -651,7 +662,7 @@ Development date: 10.01.2025 -->
 				<div class="benefits__item">
 					<img
 						class="benefits__item-img"
-						src="icons/cost-effective.svg"
+						src="images/icons/cost-effective.svg"
 						alt="icon"
 					/>
 					<h4 class="benefits__item-title">Cost-effective</h4>
@@ -664,7 +675,7 @@ Development date: 10.01.2025 -->
 				<div class="benefits__item">
 					<img
 						class="benefits__item-img"
-						src="icons/target.svg"
+						src="images/icons/target.svg"
 						alt="icon"
 					/>
 					<h4 class="benefits__item-title">Results-driven</h4>
@@ -696,7 +707,7 @@ Development date: 10.01.2025 -->
 									<div class="reviews__testimonials-item-wrapper">
 										<img
 											class="reviews__testimonials-quotes-img"
-											src="icons/quotes.svg"
+											src="images/icons/quotes.svg"
 											alt="quetes"
 										/>
 										<p class="reviews__testimonials-text">
@@ -722,7 +733,7 @@ Development date: 10.01.2025 -->
 									<div class="reviews__testimonials-item-wrapper">
 										<img
 											class="reviews__testimonials-quotes-img"
-											src="icons/quotes.svg"
+											src="images/icons/quotes.svg"
 											alt="quetes"
 										/>
 										<p class="reviews__testimonials-text">
@@ -748,7 +759,7 @@ Development date: 10.01.2025 -->
 									<div class="reviews__testimonials-item-wrapper">
 										<img
 											class="reviews__testimonials-quotes-img"
-											src="icons/quotes.svg"
+											src="images/icons/quotes.svg"
 											alt="quetes"
 										/>
 										<p class="reviews__testimonials-text">
@@ -769,12 +780,64 @@ Development date: 10.01.2025 -->
 										</p>
 									</div>
 								</div>
+								<!-- Client 1 -->
+								<div class="reviews__testimonials-item swiper-slide">
+									<div class="reviews__testimonials-item-wrapper">
+										<img
+											class="reviews__testimonials-quotes-img"
+											src="images/icons/quotes.svg"
+											alt="quetes"
+										/>
+										<p class="reviews__testimonials-text">
+											Great company. The best service. I have been working with
+											this company for 2 years and I am always satisfied. Thank
+											you Taxus for an amazing experience and great service.
+										</p>
+									</div>
+									<div class="reviews__testimonials-user">
+										<img
+											class="reviews__testimonials-avatar"
+											src="images/avatar-client-1.webp"
+											loading="lazy"
+											alt="avatar"
+										/>
+										<p class="reviews__testimonials-name">
+											<span>Jack S.</span><br />CLO
+										</p>
+									</div>
+								</div>
+								<!-- Client 2 -->
+								<div class="reviews__testimonials-item swiper-slide">
+									<div class="reviews__testimonials-item-wrapper">
+										<img
+											class="reviews__testimonials-quotes-img"
+											src="images/icons/quotes.svg"
+											alt="quetes"
+										/>
+										<p class="reviews__testimonials-text">
+											Great communication, great quality of work. Very good
+											understanding of legal issues cross border especially
+											regarding International e-commerce businesses.
+										</p>
+									</div>
+									<div class="reviews__testimonials-user">
+										<img
+											class="reviews__testimonials-avatar"
+											src="images/avatar-client-2.webp"
+											loading="lazy"
+											alt="avatar"
+										/>
+										<p class="reviews__testimonials-name">
+											<span>Elena C.</span><br />Co-founder
+										</p>
+									</div>
+								</div>
 								<!-- Client 4 -->
 								<div class="reviews__testimonials-item swiper-slide">
 									<div class="reviews__testimonials-item-wrapper">
 										<img
 											class="reviews__testimonials-quotes-img"
-											src="icons/quotes.svg"
+											src="images/icons/quotes.svg"
 											alt="quetes"
 										/>
 										<p class="reviews__testimonials-text">
@@ -800,7 +863,7 @@ Development date: 10.01.2025 -->
 									<div class="reviews__testimonials-item-wrapper">
 										<img
 											class="reviews__testimonials-quotes-img"
-											src="icons/quotes.svg"
+											src="images/icons/quotes.svg"
 											alt="quetes"
 										/>
 										<p class="reviews__testimonials-text">
@@ -826,7 +889,7 @@ Development date: 10.01.2025 -->
 									<div class="reviews__testimonials-item-wrapper">
 										<img
 											class="reviews__testimonials-quotes-img"
-											src="icons/quotes.svg"
+											src="images/icons/quotes.svg"
 											alt="quetes"
 										/>
 										<p class="reviews__testimonials-text">
@@ -854,14 +917,14 @@ Development date: 10.01.2025 -->
 							<div class="swiper-button-prev">
 								<img
 									class="swiper-button-img"
-									src="icons/arrow-swiper-left.svg"
+									src="images/icons/arrow-swiper-left.svg"
 									alt="arrow-left"
 								/>
 							</div>
 							<div class="swiper-button-next">
 								<img
 									class="swiper-button-img"
-									src="icons/arrow-swiper-right.svg"
+									src="images/icons/arrow-swiper-right.svg"
 									alt="arrow-right"
 								/>
 							</div>
@@ -880,7 +943,9 @@ Development date: 10.01.2025 -->
 				</div>
 				<!-- Button -->
 				<div class="services__cta-item-btn">
-					<a class="services__cta-btn btn btn-pulse" href="#">Contact us</a>
+					<a class="services__cta-btn btn btn-pulse" href="contact.html"
+						>Contact us</a
+					>
 				</div>
 			</div>
 		</div>
@@ -893,7 +958,7 @@ Development date: 10.01.2025 -->
       <div class="footer__top-inner">
         <div class="footer__top-item">
           <div class="footer__top-item-logo">
-            <a class="footer__logo-link" href="https://ovcharovcoder.github.io/taxus-frontend">
+            <a class="footer__logo-link" href="/">
               <img
                 class="footer__logo-img"
                 src="images/logo.svg"
@@ -908,22 +973,22 @@ Development date: 10.01.2025 -->
           <ul class="footer__top-item-social-list">
             <li class="footer__top-item-social-item">
               <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                <img class="footer__social-img" src="icons/instagram.svg" alt="Instagram">
+                <img class="footer__social-img" src="images/icons/instagram.svg" alt="Instagram">
               </a>
             </li>
             <li class="footer__top-item-social-item">
               <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="Linkedin" target="_blank" rel="noopener noreferrer">
-                <img class="footer__social-img" src="icons/in.svg" alt="Linkedin">
+                <img class="footer__social-img" src="images/icons/in.svg" alt="Linkedin">
               </a>
             </li>
             <li class="footer__top-item-social-item">
               <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                <img class="footer__social-img" src="icons/fb.svg" alt="Facebook">
+                <img class="footer__social-img" src="images/icons/fb.svg" alt="Facebook">
               </a>
             </li>
             <li class="footer__top-item-social-item">
               <a class="footer__top-item-social-link btn-zoom" href="#" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
-                <img class="footer__social-img" src="icons/youtube.svg" alt="YouTube">
+                <img class="footer__social-img" src="images/icons/youtube.svg" alt="YouTube">
               </a>
             </li>
           </ul>
