@@ -7,7 +7,7 @@
   <li>Development date: 22.01.2025</li>
   <li>
     <p>Brief description:</p>
-    <p>The site is dedicated to the sale of scented candles and candle-making training courses</p>
+    <p>The website is dedicated to a company that provides various business registration services.</p>
   </li>
   <li>View website: https://ovcharovcoder.github.io/taxus-frontend</li>
 </ul>
