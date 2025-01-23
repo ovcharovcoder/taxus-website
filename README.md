@@ -1,5 +1,4 @@
-# taxus-frontend
-
+<h1>Website "Taxus"</h1>
 <h2>About</h2>
 <ul>
   <li>Site name: "Taxus";</li>
