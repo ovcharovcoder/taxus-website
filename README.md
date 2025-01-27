@@ -9,7 +9,7 @@
     <p>The website is dedicated to a company that provides various business registration services.</p>
   </li>
   <li>View source files: https://github.com/ovcharovcoder/taxus-project-src</li>
-  <li>View website: https://ovcharovcoder.github.io/taxus-frontend</li>
+  <li>View website: https://ovcharovcoder.github.io/taxus-website</li>
 </ul>
 
 <img src="Screenshot.png" alt="screensot">
