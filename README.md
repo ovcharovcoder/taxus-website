@@ -6,7 +6,8 @@
   <li>Development date: 22.01.2025;</li>
   <li>
     <p>Brief description:</p>
-    <p>The website is dedicated to a company that provides various business registration services.</p>
+    <p>The website represents a company specializing in a wide range of business registration services.<br>
+      It is built based on a Figma design, using HTML, CSS, and JavaScript for a clean and responsive layout.</p>
   </li>
   <li>View source files: https://github.com/ovcharovcoder/taxus-project-src</li>
   <li>View website: https://ovcharovcoder.github.io/taxus-website</li>
